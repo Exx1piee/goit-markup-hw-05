@@ -16,7 +16,7 @@ body {
   width: 360px;
   height: 300px;
   margin: 0 auto;
-  background-color: #bdbdbd;
+  background-image: url('/images/Violet-app.jpg');
   overflow: hidden;
 }
 .box:hover .overlay {
@@ -34,6 +34,7 @@ body {
   transform: translatex(-100%);
   transition: transform 250ms ease-in-out;
 }
+
 .hero-btn {
   display: block;
   min-width: 169px;
