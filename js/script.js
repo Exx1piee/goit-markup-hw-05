@@ -1,1 +1,1 @@
-.heroimg-window is-hidden;
+const HEROIMGWIND = "is-hidden";
