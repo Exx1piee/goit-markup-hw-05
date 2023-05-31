@@ -1,0 +1,1 @@
+const HEROIMGWIND = "is-hidden";
