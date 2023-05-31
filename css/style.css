@@ -212,6 +212,11 @@ button {
 .svg-container {
   fill: currentColor;
 }
+.svg-esc-but-wind{
+  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+}
+
 .heroimg-window {
   position: fixed;
   top: 0;
@@ -222,6 +227,7 @@ button {
   transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1),
     visibility 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
+.heroimg-windo:focus{fill: #ffff;}
 .but-esc-wind {
   position: absolute;
   top: 24px;
