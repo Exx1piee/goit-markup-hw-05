@@ -213,13 +213,14 @@ button {
   fill: currentColor;
 }
 .svg-esc-but-wind {
+  
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .svg-esc-but-wind:hover {
-  fill: #ffff;
+  fill: #ffffff;
 }
 .svg-esc-but-wind :focus{
- fill: #ffff;
+ fill: #ffffff;
 }
 .heroimg-window {
   position: fixed;
@@ -370,6 +371,9 @@ button {
   display: flex;
   justify-content: center;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.esc-button:hover{
+  fill: #ffffff;
 }
 .footer-a-social-media:hover {
   background-color: #31d0aa;
