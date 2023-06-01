@@ -1,1 +1,1 @@
-const HEROIMGWIND = "is-hidden";
+const HEROIMGWIND = ('.is-hidden');
