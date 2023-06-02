@@ -1,1 +1,3 @@
+
+
 const HEROIMGWIND = ('.is-hidden');
