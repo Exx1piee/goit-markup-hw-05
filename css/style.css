@@ -218,10 +218,10 @@ button {
 .svg-esc-but-wind {
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.svg-esc-but-wind:hover .but-esc-wind {
+.but-esc-wind:hover  .svg-esc-but-wind {
   fill: #ffffff;
 }
-.svg-esc-but-wind:focus .but-esc-wind {
+  .but-esc-wind:focus .svg-esc-but-wind{
   fill: #ffffff;
 }
 .heroimg-window {
