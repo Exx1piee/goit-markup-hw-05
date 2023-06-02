@@ -270,10 +270,12 @@ fill: #ffffff;
 
 .but-esc-wind:hover {
   background-color: #404bbf;
+  fill: #ffffff;
   border: none;
 }
 .but-esc-wind:focus {
   background-color: #404bbf;
+  fill: #ffffff;
   border: none;
 }
 .modal-window {
