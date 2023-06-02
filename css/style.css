@@ -218,10 +218,10 @@ button {
 .svg-esc-but-wind {
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.svg-esc-but-wind:hover {
+.svg-esc-but-wind:hover .but-esc-wind {
   fill: #ffffff;
 }
-.svg-esc-but-wind :focus {
+.svg-esc-but-wind:focus .but-esc-wind {
   fill: #ffffff;
 }
 .heroimg-window {
@@ -254,11 +254,8 @@ button {
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
     border 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.but-esc-wind:focus {
-  background-color: #404bbf;
-  border: none;
-}
-.but-esc-wind:hover {
+
+.but-esc-wind:hover ,.but-esc-wind:focus {
   background-color: #404bbf;
   border: none;
 }
@@ -525,6 +522,12 @@ button {
   transform: translateY(100%);
   letter-spacing: 0.02em;
   color: #f4f4fd;
+  position: absolute; 
+  top: 0;
+}
+.card-link:hover .img-card-link-p,.card-link :focus .img-card-link-p
+{
+  transform: translateY(0%);
 }
 .card-link {
   display: block;
@@ -534,11 +537,15 @@ button {
   position: relative;
   overflow: hidden;
 }
+.img-card-link:focus{
+  transform: translateY(0%);
+}
 .card-link:hover,
 .card-link:focus {
   box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
     0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
   transform: translateY(0%);
+  
 }
 .filter-btn {
   font-weight: 500;
