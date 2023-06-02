@@ -525,7 +525,11 @@ button {
   position: absolute; 
   top: 0;
 }
-.card-link:hover .img-card-link-p,.card-link :focus .img-card-link-p
+.card-link:hover .img-card-link-p
+{
+  transform: translateY(0%);
+}
+.card-link:focus .img-card-link-p
 {
   transform: translateY(0%);
 }
